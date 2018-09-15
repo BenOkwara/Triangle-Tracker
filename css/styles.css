@@ -14,3 +14,6 @@ h2 {
   text-decoration: underline;
   text-decoration-color: purple;
 }
+#finder{
+  border:5px solid magenta;
+}
