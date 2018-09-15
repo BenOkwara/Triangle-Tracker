@@ -13,7 +13,6 @@ HTML</br>
 |
 Javascript</br>
 |
-|
 Css
 |
 
