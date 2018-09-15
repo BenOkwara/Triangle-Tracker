@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Triangle-Tracker</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="">
-      <h1>WHICH TRIANGLE??</h1>
-      <h2>Examples of Triangles</h2>
-      <p>A Triangle is a simple curved or polygon formed by three lines-segments</p>
-      <img src="http://www.onlinemathlearning.com/image-files/types-triangles-sides-angles.png">
-
-      <h3>Properties of the Triangles</h3>
-      <p>Equilateral:<br> <ol><li>All three sides and three angles are equal</li></li>The three angles are 60 degrees each.</li></ol></p>
-      <p>Scalene:<br> <ol><li>The sides and angles are not common amongst them.</li></ol></p>
-      <p>Isoceles:<br> <ol><li>Isosceles triangle has two sides, b and c, and the two angles opposite them B and C equal. The third angle, A, could be acute or obtuse.</p></li></ol>
-
-      <div class="">
-      <h4>Triangle-Tracker</h4>
-      <p>This is Triangle Tracker. Confirm your Triangle</p>
-        <div class="triangle">
-          <label for="a">length</label>
-          <input type="number" class="form-control" id="length"
-          placeholder="Length" name="length">
-        </div>
-        <div class="triangle">
-          <label for="b">Width</label>
-          <input type="number" class="form-control" id="width"
-          placeholder="Width" name="width">
-        </div>
-        <div class="triangle">
-          <label for="c">Height</label>
-          <input type="number" class="form-control" id="height"
-          placeholder="Height" name="height">
-        </div>
-        <button type="submit" id="finder" onclick="typeOf();">Click to check</button>
-        <br>
-        </div>
-      </div>
-    </div>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Triangle-Tracker</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+          <div id="first">
+              <h1>WHICH TRIANGLE??</h1>
+              <h2>Examples of Triangles</h2>
+              <p>A Triangle is a simple curved or polygon formed by three lines-segments</p>
+              <img src="http://www.onlinemathlearning.com/image-files/types-triangles-sides-angles.png">
+          </div>
+          <div id="second">
+              <h3>Properties of the Triangles</h3>
+              <p>Equilateral:<br> <ol><li>All three sides and three angles are equal</li></li>The three angles are 60 degrees each.</li></ol></p>
+              <p>Scalene:<br> <ol><li>The sides and angles are not common amongst them.</li></ol></p>
+              <p>Isoceles:<br> <ol><li>Isosceles triangle has two sides, b and c, and the two angles opposite them B and C equal. The third angle, A, could be acute or obtuse.</p></li></ol>
+          </div>
+          <div id="third">
+            <h4>Triangle-Tracker</h4>
+              <p>This is Triangle Tracker. Confirm your Triangle</p>
+              <div class="triangle">
+              <label for="a">length</label>
+              <input type="number" class="form-control" id="length"
+              placeholder="Length" name="length">
+          </div>
+          <div class="triangle">
+              <label for="b">Width</label>
+              <input type="number" class="form-control" id="width"
+              placeholder="Width" name="width">
+          </div>
+          <div class="triangle">
+              <label for="c">Height</label>
+              <input type="number" class="form-control" id="height"
+              placeholder="Height" name="height">
+          </div>
+          <button type="submit" id="finder" onclick="typeOf();">Click to check</button>
+          <br>
+    </body>
 </html>

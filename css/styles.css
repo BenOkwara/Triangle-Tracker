@@ -2,17 +2,32 @@ body {
   background-image: url(https://inscribemag.com/wp-content/uploads-2/modern-book-mockup-anthonyboyd.jpg);
   background-repeat: round;
   background-size: 1200px 1400px;
+  border-style: dashed;
+  font-size: 19px;
+}
+#first {
   color: blue;
-  font-size: 20px;
 }
 h1 {
   text-decoration: underline;
   text-decoration-color: purple;
   text-align: center;
 }
+#second {
+  color:green;
+}
 h2 {
   text-decoration: underline;
   text-decoration-color: purple;
+}
+h3 {
+  text-decoration: underline;
+  text-decoration-color: purple;
+}
+#third>h4>p>.triangle{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 #finder{
   border:5px solid magenta;
