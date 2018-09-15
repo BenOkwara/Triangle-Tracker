@@ -19,7 +19,7 @@ No bugs at the moment.
 ## B.D.D
 The Triangle-Tracker App  gives the answers to your questions of all and about Triangles
 you looking for. So for instance, if you put an Input figure like 5,5,5 as the Length, Width, and Height,
-**The Output or the Answer will be Equilateral.** If its an Isosceles, it will tell you and if its Scalene it will also tell, you
+The Output or the Answer will be Equilateral. If its an Isosceles, it will tell you and if its Scalene it will also tell, you
 etc...
 
 The Program recognizes lengths that are **Equal
