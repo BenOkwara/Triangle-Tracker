@@ -2,4 +2,11 @@ body {
   background-image: url(https://inscribemag.com/wp-content/uploads-2/modern-book-mockup-anthonyboyd.jpg);
   background-repeat: round;
   background-size: 1200px 1400px;
+  color: blue;
+  font-size: 20px;
+}
+h1 {
+  text-decoration: underline;
+  text-decoration-color: purple;
+  text-align: center;
 }
