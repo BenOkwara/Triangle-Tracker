@@ -8,8 +8,8 @@ This site is a courtesy of my sweat and hardwork where by if you put your desire
 run this link: [benson waweru](https://benokwara.github.io/Triangle-Tracker)
 ## Technologies Used
 |
-HTML</br>
 |
+HTML</br>
 |
 Javascript</br>
 |
