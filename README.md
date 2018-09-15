@@ -5,14 +5,14 @@
 ## Description 
 This site is a courtesy of my sweat and hardwork where by if you put your desired sides of the Triangle, it will give you the the answer of the impute side of the consequent Triangle.
 ## Setup/Installation Requirements
-run this link:
+run this link:https://benokwara.github.io/Triangle-Tracker
 ## Technologies Used
 |------------------------------
-|HTML</br>
+HTML</br>
 |------------------------------
-|Javascript</br>
+Javascript</br>
 |------------------------------
-|Css
+Css
 |------------------------------
 ## BUGGS
 No bugs at the moment.
@@ -21,43 +21,33 @@ The Triangle-Tracker App  gives the answers to your questions of all and about T
 you looking for. So for instance, if you put an Input figure like 5,5,5 as the Length, Width, and Height,
 **The Output or the Answer will be Equilateral.** If its an Isosceles, it will tell you and if its Scalene it will also tell, you
 etc...
-The Program recognizes length set to zero(0) or is less than zero
-INPUT EXAMPLE : sideA = 0 sideB = 60 sideC = 30
 
-OUTPUT EXAMPLE : Length of sides cannot be equal to or less than zero
+The Program recognizes lengths that are **Equal
+_Input Example_ : side(a) = 5 side(b) = 5 side(c) = 5
 
-The Program recognizes lengths that are Equal
-INPUT EXAMPLE : sideA = 60 sideB = 60 sideC = 60
+_Output Example_: The Triangle is an **EQUILATERAL**
 
-OUTPUT EXAMPLE: The Triangle is an EQUILATERAL
+The Program recognizes **two lengths that are Equal**
 
-The Program recognizes two lengths that are Equal
+_Input Example_ : side(a) = 5 side(b) = 5 side(c) = 3
 
-INPUT EXAMPLE : sideA = 60 sideB = 60 sideC = 30
+_Output Example_: The Triangle is an **ISOSCELES
 
-OUTPUT EXAMPLET: The Triangle is an ISOSCELES
+The Program recognizes **lengths that are unequal**
 
-The Program recognizes lengths that are unequal
+_Input Example_ : side(a) = 1 side(b) = 3 side(c) = 5
 
-INPUT EXAMPLE : sideA = 30 sideB = 40 sideC = 60
+_Output Example_: The triangle is a **SCALENE
 
-OUTPUT EXAMPLE: The triangle is a SCALENE
+The **Program recognizes lengths that do not form a triangle**
 
-The Program recognizes lengths that do not form a triangle
+__Input Example__ : side(a) = 50 side(b) = 30 sidec(c) = 90
 
-INPUT EXAMPLE : sideA = 50 sideB = 30 sideC = 90
-
-OUTPUT EXAMPLE: This NOT A TRIANGLE
-
-The Program recognizes empty fields or invalid characters like text
-
-Input : sideA = a sideB = "" sideC = 90
-
-OUTPUT EXAMPLE: TRY AGAIN. EMPTY FIELDS OR WRONG INPUTS
+__Output Example__: This **NOT A TRIANGLE!!
 
 ## LIVE PAGE
-https://
+https://benokwara.github.io/Triangle-Tracker
 
 ### License
-bensonwokwara (c) {2018} **{genious company}**
+bensonwokwara (c) {2018} **{gen.company}**
 
