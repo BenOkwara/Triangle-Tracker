@@ -5,7 +5,7 @@
 ## Description 
 This site is a courtesy of my sweat and hardwork where by if you put your desired sides of the Triangle, it will give you the the answer of the impute side of the consequent Triangle.
 ## Setup/Installation Requirements
-run this link:https://benokwara.github.io/Triangle-Tracker
+run this link: [Git Hub](https://benokwara.github.io/Triangle-Tracker)
 ## Technologies Used
 |------------------------------
 HTML</br>
@@ -13,7 +13,7 @@ HTML</br>
 Javascript</br>
 |------------------------------
 Css
-|------------------------------
+
 ## BUGGS
 No bugs at the moment.
 ## B.D.D
@@ -46,7 +46,7 @@ __Input Example__ : side(a) = 50 side(b) = 30 sidec(c) = 90
 __Output Example__: This **NOT A TRIANGLE!!**
 
 ## LIVE PAGE
-https://benokwara.github.io/Triangle-Tracker
+[Git Hub](https://benokwara.github.io/Triangle-Tracker)
 
 ### License
 bensonwokwara (c) {2018} **{gen.company}**
