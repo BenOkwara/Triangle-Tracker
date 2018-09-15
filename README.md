@@ -43,7 +43,7 @@ The **Program recognizes lengths that do not form a triangle**
 
 __Input Example__ : side(a) = 50 side(b) = 30 sidec(c) = 90
 
-__Output Example__: This **NOT A TRIANGLE!!
+__Output Example__: This **NOT A TRIANGLE!!**
 
 ## LIVE PAGE
 https://benokwara.github.io/Triangle-Tracker
