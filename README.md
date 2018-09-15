@@ -1,19 +1,18 @@
 |TRIANGLE-TRACKER
 |----------------------------------------------------------------------------------------------------------------------------
 |A web app that evaluates a types of triangles keyed in, in the App.
-#### { By Benson w. okwara}, {15/9/2018}
+#### {By Benson w. okwara, 15/9/2018}
 ## Description 
 This site is a courtesy of my sweat and hardwork where by if you put your desired sides of the Triangle, it will give you the the answer of the impute side of the consequent Triangle.
 ## Setup/Installation Requirements
 run this link: [benson waweru](https://benokwara.github.io/Triangle-Tracker)
 ## Technologies Used
-||
+|
 HTML</br>
 |
 Javascript</br>
 |
 Css
-|
 
 ## BUGGS
 No bugs at the moment.
