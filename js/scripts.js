@@ -5,3 +5,17 @@ function typeOf() {
   console.log(a);
   console.log(b);
   console.log(c);
+
+  if (a===b && a===c && b===c) {
+      alert("This is Equilateral");
+    }
+    else if (a===b || a===c || b===c) {
+      alert("This is Isoceles")
+    }
+    else if ((a+b)<=c || (a+c)<=b || (b+c)<=a) {
+      alert("Oops Aint a Triangle");
+    }
+    else {
+      alert("Am Scalene");
+    }
+  }
