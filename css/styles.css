@@ -28,6 +28,39 @@ h3 {
 }
 .triangle{
   color: purple;
-  font-style: oblique;
+  font-style: normal;
   font-weight: bold;
+}
+input {
+  left: 580px;
+  top: 680px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: red;
+  padding-left: 15px;
+  padding: 5px;
+  text-align: justify;
+  font-kerning: none;
+}
+button {
+  left: 580px;
+  top: 680px;
+  padding : 5px;
+  font: bold .6em sans-serif;
+  background-color: silver;
+}
+form {
+  margin-top: 0 auto;
+  width: 580px;
+  padding: 1em;
+  border: 1px solid silver;
+  border-radius: 1em;
+}
+form div + div {
+  margin-top: 1em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
 }

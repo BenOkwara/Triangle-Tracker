@@ -19,25 +19,27 @@
               <p>Scalene:<br> <ol><li>The sides and angles are not common amongst them.</li></ol></p>
               <p>Isoceles:<br> <ol><li>Isosceles triangle has two sides, b and c, and the two angles opposite them B and C equal. The third angle, A, could be acute or obtuse.</p></li></ol>
           </div>
-          <div id="third">
-            <h4>Triangle-Tracker</h4>
-              <p>This is Triangle Tracker. Confirm your Triangle</p>
-              <div class="triangle">
-              <label for="a">length</label>
-              <input type="number" class="form-control" id="length"
-              placeholder="Length" name="length">
-          </div>
-          <div class="triangle">
-              <label for="b">Width</label>
-              <input type="number" class="form-control" id="width"
-              placeholder="Width" name="width">
-          </div>
-          <div class="triangle">
-              <label for="c">Height</label>
-              <input type="number" class="form-control" id="height"
-              placeholder="Height" name="height">
-          </div>
-          <button type="submit" class="btn btn-success" onclick="typeOf();">Click to check</button>
-          <br>
+          <form class="benson" action="index.html" method="post">
+            <div id="third">
+              <h4>Triangle-Tracker</h4>
+                <p>This is Triangle Tracker. It will confirm your input for the Triangle</p>
+                <div class="triangle">
+                <label for="a">Length</label>
+                <input type="number" class="form-control" id="length"
+                placeholder="Length" name="length">
+            </div>
+            <div class="triangle">
+                <label for="b">Width</label>
+                <input type="number" class="form-control" id="width"
+                placeholder="Width" name="width">
+            </div>
+            <div class="triangle">
+                <label for="c">Height</label>
+                <input type="number" class="form-control" id="height"
+                placeholder="Height" name="height">
+            </div>
+            <button type="submit" class="btn btn-success" onclick="typeOf();">Click to check</button>
+            <br>
+        </form>
     </body>
 </html>
