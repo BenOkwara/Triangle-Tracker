@@ -3,7 +3,8 @@ body {
   background-repeat: round;
   background-size: 1200px 1400px;
   border-style: dashed;
-  font-size: 19px;
+  font-size: 1.1em;
+  padding-left: 30px;
 }
 #first {
   color: blue;
@@ -24,11 +25,8 @@ h3 {
   text-decoration: underline;
   text-decoration-color: purple;
 }
-#third>h4>p>.triangle{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-#finder{
-  border:5px solid magenta;
+.triangle{
+  color: purple;
+  font-style: oblique;
+  font-weight: bold;
 }
