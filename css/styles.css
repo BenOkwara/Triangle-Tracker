@@ -46,6 +46,8 @@ button {
   left: 580px;
   top: 680px;
   padding : 5px;
+  margin-left: 8em;
+  padding-top: .1em;
   font: bold .6em sans-serif;
   background-color: silver;
 }
