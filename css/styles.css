@@ -46,23 +46,24 @@ button {
   left: 580px;
   top: 680px;
   padding : 5px;
-  margin-left: 8em;
+  margin-left: 6em;
+  margin-top: .3em;
   padding-top: .1em;
-  font: bold .6em sans-serif;
+  font: bold .7em sans-serif;
   background-color: silver;
 }
 form {
-  margin-top: 0 auto;
+  margin-top: auto;
   width: 580px;
   padding: 1em;
   border: 1px solid silver;
   border-radius: 1em;
 }
-form div + div {
+form div > div {
   margin-top: 1em;
 }
 label {
   display: inline-block;
-  width: 90px;
   text-align: right;
+  width: 73px;
 }
